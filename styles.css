@@ -107,9 +107,9 @@ section {
 
 #menu {
     background-color: #B18904;
-    background-size: cover;
+    font-size: 1.3rem;
     margin-top: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 footer {

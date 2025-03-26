@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
     console.log("Portfolio Loaded Successfully!");
     
-    // código para imagens dinâmicas para uso posterior
-    /** const menu = document.getElementById("menu");
+    
+     const menu = document.getElementById("menu");
 
     if (menu) {
         const banner = document.createElement("div");
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
     } else {
         console.warn("Elemento com ID 'menu' não encontrado!");
     }
-
+/**
     const aboutImageContainer = document.querySelector('.about-image');
 
     if (aboutImageContainer) {

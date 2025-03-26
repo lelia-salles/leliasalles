@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
         banner.className = "banner"; 
         banner.innerHTML = `<img src="lelia linkedin.png" alt="Banner Portfolio Lelia Salles" style="width:100%; height:auto;">`;
 
-        menu.insertAdjacentElement("afterend", banner);
+        menu.insertAdjacentElement("beforebegin", banner);
     } else {
         console.warn("Elemento com ID 'menu' não encontrado!");
     }

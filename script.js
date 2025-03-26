@@ -1,7 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
     console.log("Portfolio Loaded Successfully!");
-
-    const menu = document.getElementById("menu");
+    
+    // código para imagens dinâmicas para uso posterior
+    /** const menu = document.getElementById("menu");
 
     if (menu) {
         const banner = document.createElement("div");
@@ -16,17 +17,19 @@ document.addEventListener("DOMContentLoaded", function() {
     const aboutImageContainer = document.querySelector('.about-image');
 
     if (aboutImageContainer) {
-        // Cria o elemento de imagem
+        
         const img = document.createElement('img');
         img.src = 'img/Lelia Salles Portfolio';  
         img.alt = 'About Me'; 
 
-        // Adiciona a imagem ao container da imagem
+       
         aboutImageContainer.appendChild(img);
     } else {
         console.warn("Elemento '.about-image' não encontrado!");
     }
-    }
+    }*/ 
+    
+   
 });
 
 

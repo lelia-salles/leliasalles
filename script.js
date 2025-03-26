@@ -12,6 +12,21 @@ document.addEventListener("DOMContentLoaded", function() {
     } else {
         console.warn("Elemento com ID 'menu' não encontrado!");
     }
+
+    const aboutImageContainer = document.querySelector('.about-image');
+
+    if (aboutImageContainer) {
+        // Cria o elemento de imagem
+        const img = document.createElement('img');
+        img.src = 'img/Lelia Salles Portfolio';  
+        img.alt = 'About Me'; 
+
+        // Adiciona a imagem ao container da imagem
+        aboutImageContainer.appendChild(img);
+    } else {
+        console.warn("Elemento '.about-image' não encontrado!");
+    }
+    }
 });
 
 

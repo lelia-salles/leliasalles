@@ -26,9 +26,9 @@ header h1 {
 }
 
 .header-image {
-    .header-image {
+    
         width: 100%;
-        height: auto
+        height: auto;
         background-image: url('img/lelia_linkedin.png');
         background-size: cover;
         background-position: center;
@@ -37,12 +37,7 @@ header h1 {
     
 
     
-}
 
-.header-image img {
-    width: 100%; 
-    height: auto; 
-}
 
 .description {
     color: #1C1C1C;

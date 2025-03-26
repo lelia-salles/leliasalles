@@ -26,9 +26,15 @@ header h1 {
 }
 
 .header-image {
-    width: 100%;
-    height: auto;
-    margin-bottom: 0px;
+    .header-image {
+        width: 100%;
+        height: auto
+        background-image: url('img/lelia_linkedin.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
 
     
 }

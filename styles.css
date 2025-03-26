@@ -126,6 +126,30 @@ footer {
     background-size: cover;
     
 }
+
+.social-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;  /* Para que os links se ajustem em telas pequenas */
+}
+
+.social-icon {
+    color: #fffbfb;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+.social-icon i {
+    margin-right: 8px; /* Espaço entre o ícone e o texto */
+}
+
 /* Responsividade */
 @media (max-width: 1024px) {
     /* Ajuste para tablets e telas médias */
@@ -215,6 +239,18 @@ footer {
 
     footer {
         font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .social-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-icon {
+        font-size: 1.3rem;
+        margin: 8px 0;
     }
 }
 

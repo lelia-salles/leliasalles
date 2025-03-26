@@ -15,7 +15,8 @@ body {
 
 header {
     background-color: #ffffff; 
-    padding: 20px;
+    padding: 0px;
+    margin: 0px;
 }
 
 header h1 {
@@ -26,8 +27,8 @@ header h1 {
 
 .description {
     color: #1C1C1C;
-    font-size: 1.875rem;
-    font-weight: 600;
+    font-size: 1.3rem;
+    font-weight: 400;
 }
 
 .paragraph{
@@ -70,6 +71,7 @@ section {
 #menu {
     background-color: #B18904;
     background-size: cover;
+    scroll-margin-top: 0px;
 }
 
 footer {

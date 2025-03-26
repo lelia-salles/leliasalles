@@ -58,7 +58,7 @@ footer {
     font-weight: bold;
 }
 
-#banner {
+.banner {
     text-align: center;
     padding: 10px;
     background-color: #f4f4f4;

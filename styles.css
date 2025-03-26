@@ -81,6 +81,14 @@ section {
     padding: 30px;
 }
 
+.contact{
+    background-color: #B18904;
+    color: #fffbfb;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
 #menu {
     background-color: #B18904;
     background-size: cover;

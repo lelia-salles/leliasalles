@@ -108,8 +108,8 @@ section {
 #menu {
     background-color: #B18904;
     font-size: 1.3rem;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin: 0px;
+    width: 100%;
 }
 
 footer {

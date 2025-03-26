@@ -91,10 +91,14 @@ section {
     padding: 30px;
 }
 
+nav ul li {
+display: inline;
+}
+
 #menu {
     background-color: #B18904;
     font-size: 1.3rem;
-    display: inline;
+    
     width: 100%;
     height: 50px;
     list-style: none;

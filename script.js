@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (menu) {
         const banner = document.createElement("div");
         banner.className = "banner"; 
-        banner.innerHTML = `<img src="img/lelia linkedin.png" alt="Banner Portfolio Lelia Salles">`;
+        banner.innerHTML = `<img src="img/lelia banner.png" alt="Banner Portfolio Lelia Salles">`;
 
         menu.insertAdjacentElement("beforebegin", banner);
 

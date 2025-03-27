@@ -13,23 +13,19 @@ document.addEventListener("DOMContentLoaded", function() {
     } else {
         console.warn("Elemento com ID 'menu' não encontrado!");
     }
-/**
-    const aboutImageContainer = document.querySelector('.about-image');
+
+    const aboutImageContainer = document.querySelector('img');
 
     if (aboutImageContainer) {
         
         const img = document.createElement('img');
-        img.src = 'img/Lelia Salles Portfolio';  
+        img.src = 'img/Lelia Portfolio.png';  
         img.alt = 'About Me'; 
-
-       
+        img.className = "about-image"
         aboutImageContainer.appendChild(img);
     } else {
         console.warn("Elemento '.about-image' não encontrado!");
     }
-    }*/ 
-    
-   
 });
 
 

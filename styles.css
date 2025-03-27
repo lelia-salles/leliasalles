@@ -70,7 +70,7 @@ section {
 }
 
 .about-text {
-    flex: 70%; 
+    flex: 70%;  
 }
 
 .about-image img {
@@ -89,8 +89,8 @@ section {
     color: #fffbfb;
     margin: 0px;
     padding: 30px;
-}
-
+} 
+nav ul {list-style: none; padding: 0px;} nav ul li a {color: #ffffff; text-decoration: none; font-weight: bold;}
 nav ul li {
 display: inline;
 }

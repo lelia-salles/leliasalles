@@ -105,7 +105,6 @@ nav ul {
     flex-direction: column;
     flex-wrap: wrap;
     text-align:left;
-    justify-content:center;
     gap: 15px;
 }
 

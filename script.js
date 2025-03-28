@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         if (aboutImageContainer) {
             const img = document.createElement("img");
-            img.id = "babout-image"; 
+            img.id = "about-image"; 
             img.src = "img/Lelia Portfolio 250.17px-300px.png";
             img.alt = "Colagem Portfolio Lelia Salles";
             aboutImageContainer.appendChild(img);

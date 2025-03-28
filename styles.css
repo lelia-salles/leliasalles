@@ -25,9 +25,9 @@ header h1 {
     font-weight: 600;
 }
 
-h2{
+h2 {
     margin: 50px;
-    font-size: 35px;;
+    font-size: 35px;
 }
 
 .description {
@@ -43,9 +43,9 @@ h2{
     margin: 1em 0;
     border-color: #B18904;
     border-radius: 7px;
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 section {
@@ -60,10 +60,9 @@ section {
     padding: 30px;
 }
 
-.mastermusica-text{
-    
+.mastermusica-text {
     text-align: justify;
-    margin-top: 0px; 
+    margin-top: 0;
     padding-top: 10px;
     padding-left: 20px;
 }
@@ -76,26 +75,24 @@ section {
 }
 
 #about-image {
-    flex: 1 1 300px; 
-    max-width: 300px; 
+    flex: 1 1 300px;
+    max-width: 300px;
 }
 
 #about-image img {
     width: 100%;
     max-width: 300px;
-    height: 500px; 
+    height: 500px;
     object-fit: cover;
 }
 
 .about-text {
     flex: 2 1 500px;
     text-align: justify;
-    margin-top: 0px; 
+    margin-top: 0;
     padding-top: 10px;
     padding-left: 20px;
 }
-
-
 
 #contact, .contact {
     background-color: #B18904;

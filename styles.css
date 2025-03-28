@@ -73,8 +73,15 @@ section {
 .about-text {
     flex: 2 1 500px;
     text-align: justify;
+    background-color: antiquewhite;
+    border-color: #B18904;
+    border-radius: 7px;
 }
 
+#mastermusica {
+    border-color:#B18904; 
+    border-radius: 7px;
+}
 
 #contact, .contact {
     background-color: #B18904;

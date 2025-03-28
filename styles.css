@@ -60,14 +60,6 @@ section {
     padding: 30px;
 }
 
-.mastermusica-text{
-    
-    text-align: justify;
-    margin-top: 0px; 
-    padding-top: 10px;
-    padding-left: 20px;
-}
-
 .about-container {
     display: flex;
     flex-wrap: wrap;
@@ -174,6 +166,22 @@ footer {
     h2{
         font-size: 0.938rem;
     }
+    #menu {
+        font-size: 0.938rem;
+        width: 100%;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-container {
+        flex-direction: column;
+    }
     #about-image {
         height: 300px;
     }
@@ -194,14 +202,33 @@ footer {
     h2{
         font-size: 1.25;
     }
+
+    #menu {
+        font-size: 1.25rem;
+        width: 100%;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+   
+
+}
+nav ul {
+    flex-direction: column;
+    text-align: center;
+}
     #about-image {
         height: 350px;
     }
     .about-text {
         font-size: 1rem;
     }
-}
 
+    footer {
+        font-size: 0.625;
+    }
 
 @media (max-width: 425px) {
     header h1 {
@@ -211,8 +238,27 @@ footer {
     h2 {
         font-size: 1.375rem;
     }
+    #menu {
+        font-size: 1.375rem;
+        width: 100%;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-container {
+        flex-direction: column;
+    }
     #about-image {
         height: 400px;
+    }
+    footer {
+        font-size: 0.625;
     }
 }
 
@@ -223,12 +269,22 @@ footer {
     }
 
     h2{
-        font-size: ;
+        font-size:0.938rem;
+    }
+    #menu {
+        font-size: 0.938rem;
+        width: 100%;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
     }
     nav ul {
         flex-direction: column;
         text-align: center;
     }
+
     .about-container {
         flex-direction: column;
     }
@@ -250,6 +306,19 @@ footer {
     h2 {
         font-size:1.125rem;
     }
+    #menu {
+        font-size: 1.125rem;
+        width: 100%;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
     .about-container {
         flex-direction: column;
         text-align: center;
@@ -268,6 +337,19 @@ footer {
     h2{
         font-size: 1.875rem;
     }
+    #menu {
+        font-size: 1.875rem;
+        width: 100%;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
     #about-image {
         width: 70%;
     }
@@ -281,7 +363,20 @@ footer {
     h2 {
         font-size: 2.5rem;
     }
-    #about-image img {
+    #menu {
+        font-size: 2.5rem;
+        width: 100%;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    #about-image {
         width: 60%;
     }
 }

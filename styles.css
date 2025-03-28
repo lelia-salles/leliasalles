@@ -36,6 +36,12 @@ header h1 {
     color: #1C1C1C;
     text-align: left;
     margin: 1em 0;
+    border-color: #B18904;
+    border-radius: 7px;
+    background-image: url('img/mastermusica logo.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
 
 section {
@@ -76,12 +82,10 @@ section {
     background-color: antiquewhite;
     border-color: #B18904;
     border-radius: 7px;
+    margin: 1em 0;
 }
 
-#mastermusica {
-    border-color:#B18904; 
-    border-radius: 7px;
-}
+
 
 #contact, .contact {
     background-color: #B18904;

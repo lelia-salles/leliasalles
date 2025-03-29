@@ -37,16 +37,6 @@ h2 {
     margin-top: 5px;
 }
 
-.paragraph {
-    color: #1C1C1C;
-    text-align: left;
-    margin: 1em 0;
-    border-color: #B18904;
-    border-radius: 7px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
 section {
     padding: 50px 20px;
@@ -160,7 +150,7 @@ footer {
 }
 
 /* Responsividade */
-@media (max-width: 1024px) {
+/*@media (max-width: 1024px) {
     header h1 {
         font-size: 2rem;
     }
@@ -210,5 +200,5 @@ footer {
     }
 }
 
-
+*/
 
